@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindy | raffle</title>
+    <link rel="shortcut icon" href="../image/icon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">     
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style/style.css">
+   
+</head>
+<body>
+    <header>
+        <h1 class="h1" align="center">RAFFLE</h1>
+        <img src="../image/logo.png" alt="logo"  height="70" >
+    </header>
+    <nav>
+        <div class="container">
+        <a href="../../index.html">Home</a>
+        <a href="aboutUs.html">About Us</a>
+        <a href="contact.html">Contact</a>
+        <a href="information.html">More Information</a>
+        <a href="benefitsTips.html">Benefits and Tips</a>
+        <a href="#">Raffle</a>
+        </div>
+    </nav>
+    <main class="mai">  
+        <form action="../../show_data.html" method="get" class="for">
+            <fieldset class="formx">
+            <label for="first">first Name</label>
+            <input type="text" id="first" name="fname" placeholder="first Name">
+
+            <label for="last">last Name</label>
+            <input type="text" id="last" name="lname" placeholder="last Name">
+
+            <label for="mail">E-mail</label>
+            <input type="email" id="mail" name="mail" placeholder="E-mail">
+
+            <label for="country">Choose country</label>
+            <select id="country" name="country">
+              <option value="">select country</option>   
+              <option value="argentina">Argentina</option>
+              <option value="bolivia">Bolivia</option>
+              <option value="chile">Chile</option>
+              <option value="colombia">Colombia</option>
+              <option value="costa-rica">Costa Rica</option>
+              <option value="cuba">Cuba</option>
+              <option value="ecuador">Ecuador</option>
+              <option value="el-salvador">El Salvador</option>
+              <option value="guatemala">Guatemala</option>
+              <option value="honduras">Honduras</option>
+              <option value="mexico">México</option>
+              <option value="nicaragua">Nicaragua</option>
+              <option value="panama">Panamá</option>
+              <option value="paraguay">Paraguay</option>
+              <option value="peru">Perú</option>
+              <option value="puerto-rico">Puerto Rico</option>
+              <option value="republica-dominicana">República Dominicana</option>
+              <option value="uruguay">Uruguay</option>
+              <option value="venezuela">Venezuela</option>
+            </select>           
+
+            <label for="date">Choose Date</label>
+            <input type="date" id="date" name="date">
+            </fieldset>
+              
+            <fieldset class="pag">
+            <h4>Payment Option</h4>
+            <label for="Cash">Cash</label>
+            <input type="radio" id="cash" name="Payment" value="cash">
+            <label for="credit">Credit Card/label>
+            <input type="radio" id="credit" name="Payment" value="credit">
+            <label for="Debit">Debit Card</label>
+            <input type="radio" id="Debit" name="Payment" value="Debit">
+            </fieldset>
+
+            <fieldset class="tex">
+            <textarea name="message" cols="30" rows="5" placeholder="message(optional)"></textarea>
+            </fieldset>
+
+            <fieldset class="acep">
+            <div class="w">
+            <input type="checkbox" id="accept" name="accept">
+            <label for="accept">I accept termns and conditions...</label>            
+            </div>
+            <div class="but">
+            <input type="submit" value="send">
+            </div>
+            </fieldset>     
+
+
+        </form>
+        <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d369104.49136693805!2d-79.70839634366573!3d43.718261898406695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cb90d7c63ba5%3A0x323555502ab4c477!2sToronto%2C%20Ontario%2C%20Canad%C3%A1!5e0!3m2!1ses!2sve!4v1687491151232!5m2!1ses!2sve" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      
+    </main>
+    <footer>
+        <p align="center">Copyright &copy Joe Perez</p>
+    </footer> 
+    </body>
+</html>
